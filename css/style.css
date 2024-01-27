@@ -272,6 +272,12 @@ margin-bottom: 8px;
   column-gap: 24px; 
   row-gap: 48px; 
 }
+.main-site-apps{
+   display: flex;
+   flex-wrap: wrap;
+   column-gap: 24px;
+   row-gap: 48px;
+}
 .team-paragraph {
   letter-spacing: 0.02em;
   font-size: 16px;
