@@ -34,6 +34,17 @@ ul {
   padding-right: 15px;
   margin: 0 auto;
 }
+.links{
+  display: flex;
+  gap: 40px;
+}
+.navs{
+  display: flex; 
+   align-items: center;
+}
+.header{
+   border-bottom: 1px solid #e7e9fc
+}
 .header a {
   padding-top: 24px;
   padding-bottom: 24px;
@@ -48,6 +59,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+   margin-right: 76px;
 }
 .logo-header-two {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -58,6 +70,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+   margin-right: 76px;
 }
 .logo-header:hover,
 .logo-header:focus {
@@ -69,6 +82,15 @@ address {
 .page-link .link:hover,
 .page-link .link:focus {
   color: #404bbf;
+}
+.page-link{
+  display:flex;
+  gap: 40px;
+}
+.contacts{
+  display: flex;
+  gap: 40px;
+  
 }
 .link {
   color: #2e2f42;
@@ -98,6 +120,7 @@ address {
 }
 .main-information {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 .main-strategy {
   font-weight: 500;
@@ -124,6 +147,7 @@ address {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+   max-width: 496px;
 }
 .button-main-order {
   background-color: #4d5ae5;
@@ -139,6 +163,11 @@ address {
   cursor: pointer;
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  display: block;
+  min-width: 169px;
+   height: 56px;
+   border: none;
+   
 }
 .button-main-order:hover,
 .button-main-order:focus {
@@ -151,13 +180,20 @@ address {
   color: #2e2f42;
   letter-spacing: 0.02em;
 }
-.h-team {
+.h-team  {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+.img-team{
+  display: flex;
+  gap: 24px;
+  
+  
 }
 .h-portfolio {
   font-size: 36px;
@@ -172,6 +208,7 @@ address {
 }
 .main-team {
   background-color: #f4f4fd;
+   padding: 120px 0 ;
 }
 
 .main-description .description-page {
@@ -217,11 +254,16 @@ address {
   font-size: 20px;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
+   padding: 120px 0;
 }
 .img-team {
   background: url(<path-to-image>),
     lightgray -128.784px -0.151px / 197.563% 133.752% no-repeat;
   background-color: #ffffff;
+   display: flex; 
+   gap: 24px;
+   width: calc((100% - 72px) / 4);
 }
 .site-abzac {
   line-height: 1.2;
