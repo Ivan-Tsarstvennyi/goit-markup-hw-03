@@ -1,0 +1,221 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.logo-header {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.logo-header-two {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+.logo-header:hover,
+.logo-header:focus {
+  color: #404bbf;
+}
+address {
+  font-style: normal;
+}
+.page-link .link:hover,
+.page-link .link:focus {
+  color: #404bbf;
+}
+.link {
+  color: #2e2f42;
+}
+.logo-header .logo-header-two:hover,
+.logo-header .logo-header-two:focus {
+  color: #404bbf;
+}
+.link-contacts {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.link-contacts:hover,
+.link-contacts:focus {
+  color: #404bbf;
+}
+
+.link {
+  color: #2e2f42;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.main-information {
+  background-color: #2e2f42;
+}
+.main-strategy {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.link {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.main {
+  background: var(--NAVY-BLUE, #2e2f42);
+  font-family: Roboto;
+  flex-shrink: 0;
+}
+.main-h {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.button-main-order {
+  background-color: #4d5ae5;
+
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
+}
+.button-main-order:hover,
+.button-main-order:focus {
+  background-color: #404bbf;
+}
+.strategy-h {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+.h-team {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.h-portfolio {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.information-paragraph {
+  letter-spacing: 0.02em;
+}
+.main-team {
+  background-color: #f4f4fd;
+}
+
+.main-description .description-page {
+  color: var(--SLATE, #434455);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02px;
+}
+
+.portfolio-abzac {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.main-site-app {
+  background-color: #ffffff;
+}
+.team-paragraph {
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.site-paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.site-apps {
+  background-color: #f4f4fd;
+}
+
+.team-name {
+  line-height: 1.2;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.img-team {
+  background: url(<path-to-image>),
+    lightgray -128.784px -0.151px / 197.563% 133.752% no-repeat;
+  background-color: #ffffff;
+}
+.site-abzac {
+  line-height: 1.2;
+}
+footer {
+  background: var(--NAVY-BLUE, #2e2f42);
+}
+
+.footer-logo {
+  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.footer-logo-studio {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.54px;
+}
+.footer-text {
+  color: #f4f4fd;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
