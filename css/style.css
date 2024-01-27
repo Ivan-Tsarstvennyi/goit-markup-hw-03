@@ -177,14 +177,14 @@ max-width: 496px;
   background-color: #404bbf;
 }
 .visually-hidden{
-  position: absolute !important;
-  width: 1px !important;
-  height: 1px !important;
-  padding: 0 !important;
-  margin: -1px !important;
-  overflow: hidden !important;
-  clip: rect(0, 0, 0, 0) !important;
-  border: 0 !important;
+ position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 
@@ -197,7 +197,7 @@ max-width: 496px;
   color: #2e2f42;
   margin-bottom: 72px;
   text-align: center;
-  margin-bottom: 8px;
+  margin-bottom: 72px;
 }
 .img-teams{
   display: flex;
@@ -225,7 +225,7 @@ max-width: 496px;
   padding: 120px 0 ;
 }
 
-.main-description .description-pages {
+.main-description  {
   color: var(--SLATE, #434455);
   font-family: Roboto;
   font-size: 16px;
@@ -236,8 +236,13 @@ max-width: 496px;
   display: flex;
   gap: 24px;
   width: calc((100% - 72px) / 4);
+  display: flex;
+  gap: 24px;
 }
-.anme-personal{
+.main-description{
+  width: calc((100% - 72px) / 4);
+}
+.main-personal{
   padding: 32px 0 ;
 }
 
@@ -245,6 +250,7 @@ max-width: 496px;
   padding: 32px 16px;
     border: 1px solid #e7e9fc; 
     border-top: none; 
+    
 }
 .portfolio-abzac {
   font-size: 20px;
@@ -261,6 +267,10 @@ margin-bottom: 8px;
   column-gap: 24px;
   row-gap: 48px;
   width: calc((100% - 48px) / 3);
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px; 
+  row-gap: 48px; 
 }
 .team-paragraph {
   letter-spacing: 0.02em;
@@ -290,6 +300,10 @@ text-align: center;
   color: #2e2f42;
   margin-bottom: 8px;
   padding: 120px 0;
+  text-align: center; 
+}
+.name-personal{
+  padding: 32px 0;
 }
 .img-team {
   background: url(<path-to-image>),
