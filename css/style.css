@@ -36,7 +36,7 @@ ul {
 }
 .links{
   display: flex;
-  gap: 40px;
+  justify-content: space-between;
 }
 .informations{
   padding: 120px 0 ;
@@ -51,6 +51,7 @@ ul {
 .header a {
   padding-top: 24px;
   padding-bottom: 24px;
+  display:block;
 }
 
 .logo-header {
@@ -66,14 +67,7 @@ ul {
 }
 .logo-header-two {
   color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
-  margin-right: 76px;
+  
 }
 .logo-header:hover,
 .logo-header:focus {
@@ -129,7 +123,6 @@ address {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
@@ -152,6 +145,7 @@ address {
   letter-spacing: 0.02em;
   color: #ffffff;
 max-width: 496px;
+margin: 0 auto 48px;
 }
 .button-main-order {
   background-color: #4d5ae5;
@@ -171,6 +165,7 @@ max-width: 496px;
   min-width: 169px;
   height: 56px;
   border: none;
+  margin: auto;
 }
 .button-main-order:hover,
 .button-main-order:focus {
@@ -239,13 +234,10 @@ max-width: 496px;
   letter-spacing: 0.02px;
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
   display: flex;
   gap: 24px;
 }
-.main-description{
-  width: calc((100% - 72px) / 4);
-}
+
 .main-personal{
   padding: 32px 0 ;
 }
@@ -269,16 +261,7 @@ max-width: 496px;
 margin-bottom: 8px;
 }
 .main-site-app {
-  background-color: #ffffff;
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px;
-  row-gap: 48px;
   width: calc((100% - 48px) / 3);
-  display: flex;
-  flex-wrap: wrap;
-  column-gap: 24px; 
-  row-gap: 48px; 
 }
 .main-site-apps{
    display: flex;
@@ -301,7 +284,6 @@ text-align: center;
   color: #434455;
 }
 .site-apps {
-  background-color: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px; 
 }
@@ -313,18 +295,14 @@ text-align: center;
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  padding: 120px 0;
   text-align: center; 
 }
 .name-personal{
   padding: 32px 0;
 }
 .img-team {
-  background: url(<path-to-image>),
     lightgray -128.784px -0.151px / 197.563% 133.752% no-repeat;
   background-color: #ffffff;
-  display: flex; 
-  gap: 24px;
   width: calc((100% - 72px) / 4);
 }
 .site-abzac {
@@ -356,4 +334,5 @@ footer {
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  max-width: 264px;
 }
